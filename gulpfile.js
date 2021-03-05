@@ -14,7 +14,6 @@ gulp.task('server', function() {
             baseDir: "dist"
         }
     });
-
     gulp.watch("src/*.html").on('change', browserSync.reload);
 });
 
