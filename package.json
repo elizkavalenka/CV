@@ -28,14 +28,14 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elizkovalenko/CV.git"
+    "url": "git+https://github.com/elizkavalenka/CV.git"
   },
   "keywords": [
     "cv",
     "portfolio"
   ],
   "bugs": {
-    "url": "https://github.com/elizkovalenko/CV/issues"
+    "url": "https://github.com/elizkavalenka/CV/issues"
   },
-  "homepage": "https://github.com/elizkovalenko/CV#readme"
+  "homepage": "https://github.com/elizkavalenka/CV#readme"
 }
