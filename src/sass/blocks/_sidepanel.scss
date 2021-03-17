@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-between;
     z-index: 3;
-    color: #fff;
+    color: $text-color;
     &__link {
         &:hover {
             svg path {
@@ -19,7 +19,7 @@
     &__divider  {
         width: 2px;
         height: 70px;
-        background-color: #fff;
+        background-color: $text-color;
     }
     &__text {
         width: 25px;

@@ -1,9 +1,5 @@
 .about {
-    background: #000;
-    position: relative;
-    z-index: 0;
     padding-top: 120px;
-    
     &__wrapper {
         display: grid;
         grid-template-columns: 400px 670px;
