@@ -1,0 +1,37 @@
+.review {
+    padding-bottom: 70px;
+    &__item {
+        display: flex;
+        margin-top: 70px;
+        &:nth-child(n+2) {
+            margin-top: 50px;
+        }
+    }
+    &__img {
+        width: 170px;
+        height: 170px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+    &__text {
+        padding-right: 62px;
+        margin-left: 60px;  
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+        margin-bottom: 14px;
+    }
+    &__number {
+        font-size: 14px;
+        font-weight: 500;
+        color: #646464;
+        margin-bottom: 19px;
+    }
+    &__descr {
+        font-size: 16px;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+}

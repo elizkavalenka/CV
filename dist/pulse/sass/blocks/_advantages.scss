@@ -1,0 +1,37 @@
+.advantages {
+    min-height: 471px;
+    padding: 69px 0 78px 0;
+    background-color: #F6F6F6;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        padding-top: 65px;
+        text-align: center;
+        font-size: 14px;
+    }
+    &__name {
+        padding-top: 38px;
+        font-size: 18px;
+        font-weight: 500px;
+
+    }
+    &__descr {
+        padding-top: 25px;
+        max-width: 240px;
+		a {
+			color: $main-color;
+			text-decoration:underline; 
+			text-transform: uppercase;
+		}
+	}
+    &__img {
+		&_animated {
+			animation: heartbeat 1.5s ease infinite;
+			&:hover {
+				animation-play-state: paused;
+			}
+		}
+	}
+}
