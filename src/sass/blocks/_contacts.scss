@@ -8,14 +8,6 @@
     }
     &__descr {
         padding-top: 6px;
-        .divider {
-            margin: 0;
-        }
-    }
-    &__title {
-        position: relative;
-        padding: 1px 0 0 12px;
-        @include before_circle;
     }
     &__text,  &__social {
         margin-top: 20px;
@@ -28,7 +20,9 @@
         }
         &:hover {
             text-decoration: none;
+            
             svg path {
+                transition: all 0.5s;
                 fill: $hover-color;
             }
         }

@@ -10,6 +10,7 @@
     &__item {
         padding: 30px;
         background: $additional-color;
+        transition: all 0.6s;
         &-icon {
             display: flex;
             align-items: center;
@@ -24,6 +25,11 @@
             margin-bottom: 0;
             font-size: 12px;
             line-height: 18px;
+        }
+        &:hover {
+            // transition: all 0.6s;
+            transform: scale(1.05);
+
         }
     }
     &__ratings {
