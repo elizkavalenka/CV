@@ -185,8 +185,10 @@
     }
     .contacts {
         padding-top: 40px;
-        &__photo {
-            display: none;
+            &__conect {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
         }
         &__wrapper {
             grid-template-columns: 1fr;
