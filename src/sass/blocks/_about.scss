@@ -48,7 +48,8 @@
             padding: 15px 0 0 15px;
             @include before_circle;
             &:before {
-                top: 0;
+                top: 7px;
+                left: 10px;
             }
         }
         &-text {
