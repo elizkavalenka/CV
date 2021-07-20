@@ -1,0 +1,27 @@
+.clients {
+    height: 495px;
+    margin-bottom: 150px;
+    &__content{
+        margin-left: 90px;
+		&-subtitle{
+			margin-bottom: 30px;
+			max-width: 478px;
+		}
+		&-descr{
+			margin-left: 40px;
+			margin-bottom: 65px;
+			&-item{
+				margin-bottom: 15px;
+			}
+		}
+	}
+	&__button{
+		path{
+			fill: black;
+		}
+		.icon_path{
+			fill: transparent;
+			stroke: black;
+		}
+	}
+}

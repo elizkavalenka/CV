@@ -1,0 +1,20 @@
+.service{
+    height: 765px;
+    margin-bottom: 150px;
+    &__descr {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-right: 90px;
+    }
+    &__text{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    &__img{
+        object-fit: cover;
+    }
+    &__item {
+        margin-bottom: 50px;
+    }
+}
