@@ -1,4 +1,41 @@
 .contacts{
     height: 730px;
+	color: #fff;
     background: url(../img/footer-bg.jpg) center (center/cover) no-repeat;
+	padding-top: 70px;
+	&__title{
+		color: #fff;
+	}
+	&__request{
+		input{
+			background: transparent;
+			border: none;
+			border-bottom: 1px solid #fff;
+			width: 510px;
+			margin-bottom: 60px;
+            color: #fff;
+			&::placeholder {
+				color: #fff;
+				font-size: 14px;
+				line-height: 19px;
+			}
+		}
+	}
+	&__info{
+		&-item{
+			font-size: 18px;
+			line-height: 25px;
+			margin-bottom: 30px;
+		}
+	}
+	footer{
+		.wrapper{
+			display: flex;
+			justify-content: space-between;
+			.social__list{
+				display: flex;
+				flex-direction: row;
+			}
+		}
+	}
 }
