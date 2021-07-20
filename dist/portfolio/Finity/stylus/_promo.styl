@@ -1,0 +1,75 @@
+.promo
+    height 990px
+    background light1-clr
+    overflow hidden
+    &__button
+        margin-bottom 18px
+    &__descr
+        width 520px
+        margin 0 auto
+        margin-bottom 109px
+        text-align center
+        h1
+            font-family 'Circular Std', Arial, sans-serif
+            font-weight bold
+            font-size 3.2em
+            line-height 1.1
+            margin-bottom 19px
+            color dark-clr
+        &-text
+            font-size 1.2em
+            line-height 1.2
+            color grey-clr
+            margin-bottom 40px
+            &-mini
+                font-size 0.7em
+                line-height 20px
+                color bgrey-clr
+    &__media
+        position relative
+        text-align center
+        img 
+            position: relative
+            border-radius 15px
+            z-index 0
+            object-fit cover
+            object-position top
+    &__circle
+        position absolute
+        top -90px
+        right 0
+        width 282px
+        height 282px
+        background-color cyan-clr
+        border-radius 50%
+        animation pulse 2.1s ease infinite
+    &__rectangle
+        position absolute
+        top 151px
+        left 0
+        width 304px
+        height 304px
+        background-color yellow-clr
+        border-radius 30px
+        animation pulse 2.1s ease infinite
+    .wrapper
+        display flex
+        justify-content space-between
+        align-items center
+        padding 12px 12px 0
+        margin 0 auto 119px
+        max-width 1400px
+    .nav-list
+        list-style-type none
+        display flex
+        justify-content space-between
+        align-items center
+    .nav-item
+        margin-right 42px
+        font-size 0.9em
+        line-height 1.8
+        &:last-child
+            margin-right 0
+        &_link
+            text-decoration none
+            color dark-clr
