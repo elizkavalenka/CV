@@ -1,0 +1,364 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Finity
+        link(rel='stylesheet' href='css/style.css')
+    body(id='mainContent')
+        section.promo
+            .hamburger
+                span
+                span.long
+                span
+            .menu
+				.menu__block
+					.menu__close
+						svg(width='30' height='30' viewbox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg')
+							path(d='M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 	0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z' fill='white')
+					nav
+						ul.menu__list
+							li.menu__link
+								a(href='#') Demos
+							li.menu__link
+								a(href='#') Pages
+							li.menu__link
+								a(href='#') Support
+							li.menu__link
+								a.button.button-mini(href='#') Start 14 Days Free Trial
+					.menu__social
+						a(href='#')
+							img(src='img/footer/twitter.svg' alt='twitter')
+						a(href='#')
+							img(src='img/footer/fb.svg' alt='facebook')
+						a(href='#')
+							img(src='img/footer/google.svg' alt='google')
+                .menu__overlay
+				
+            .wrapper
+                .logo
+                    a.nav-item_link(href='#')
+                        img(src='img/header/logo.svg' alt='logo')
+                nav 
+                    ul.nav-list
+                        li.nav-item
+                            a.nav-item_link(href='#') Demos
+                        li.nav-item
+                            a.nav-item_link(href='#') Pages
+                        li.nav-item
+                            a.nav-item_link(href='#') Support
+                        li.nav-item
+                            a.button.button-mini(href='#') Start 14 Days Free Trial
+            .container
+                .promo__descr
+                    h1 More than your regular email inbox
+                    .promo__descr-text
+                        | We've helped over 25,000 individuals and companies to grow their business successfully.
+                    a.button.promo__button(href='#') Start 14 Days Free Trial
+                    .promo__descr-text-mini No credit card required
+                .promo__media
+                    .promo__circle
+                    .promo__rectangle
+                    img(src='img/promo/promo-bg.png' alt='promo-bg')
+   
+        section.feature(id='firstBox')
+            .container
+                .companies 
+                    img(src='img/feature/companies/GeekWire.png' alt='GeekWire')
+                    img(src='img/feature/companies/Slack.png' alt='Slack')
+                    img(src='img/feature/companies/Envato.png' alt='Envato')
+                    img(src='img/feature/companies/UsaToday.png' alt='UsaToday')
+                    img(src='img/feature/companies/Forbes.png' alt='Forbes')
+                h2.title
+                    | Solution made for you
+                p.feature__text
+                    | These companies release their own versions of the operating systems with minor changes, and yet always.
+                .feature__carousel
+                    .card
+                        .card-img
+                            img(src='img/feature/TeamColoboration.svg' alt='TeamColoboration')
+                        .card-descr
+                            .card-name
+                                | Find Leads
+                            p
+                                | We've helped over 2,500 job seekers to get into the most popular tech teams.
+                    .card
+                        .card-img
+                            img(src='img/feature/TeamColoboration.svg' alt='TeamColoboration')
+                        .card-descr
+                            .card-name
+                                | Team Collaboration
+                            p
+                                | We've helped over 2,500 job seekers to get into the most popular tech teams.
+                    .card
+                        .card-img
+                            img(src='img/feature/InstantChat.svg' alt='InstantChat')
+                        .card-descr
+                            .card-name
+                                | Instant Chat
+                            p
+                                | We've helped over 2,500 job seekers to get into the most popular tech teams.
+                    .card
+                        .card-img
+                            img(src='img/feature/MediaManage.svg' alt='MediaManage')
+                        .card-descr
+                            .card-name
+                                | Media Manage
+                            p
+                                | We've helped over 2,500 job seekers to get into the most popular tech teams.
+                    .card
+                        .card-img
+                            img(src='img/feature/DedicatedStorage.svg' alt='DedicatedStorage')
+                        .card-descr
+                            .card-name
+                                | Dedicated Storage
+                            p
+                                | We've helped over 2,500 job seekers to get into the most popular tech teams.
+                a.button.feature__button(href='#')
+                    img(src='img/feature/Button-img.svg' alt='Button-img')
+                    | See Finity in Action
+
+        .divider
+
+        section.place(id='secondBox')
+            .container
+                .place__descr
+                    h2.title
+                        | Get all your emails in a single place
+                    .text
+                        | These companies release their own versions of the operating systems with minor changes, and yet always with the same bottom line.
+                    ul.place__descr-list
+                        li.place__descr-item
+                            .place__descr-round
+                                img(src='img/place/connect.svg' alt='connect')
+                            p Connect with new people
+                        li.place__descr-item
+                            .place__descr-round
+                                img(src='img/place/chance.svg' alt='chance')
+                            p Increase chance to engage
+                        li.place__descr-item
+                            .place__descr-round
+                                img(src='img/place/storage.svg' alt='storage')
+                            p Unlimited storage 
+                                span.outline PRO
+                .place__media
+                    .place-circle
+                    img.place-img-big(src='img/place/place-img-big.png' alt='place-big')
+                    .frame
+                        img.place-img-small(src='img/place/place-img-small.png' alt='place-small')
+        
+        section.work(id='thirdBox')
+            .container
+                .work__media
+                    .work-circle
+                    img.work-img-big(src='img/work/work-img-big.png' alt='work-big')
+                    img.work-img-small(src='img/work/work-img-small.png' alt='work-small')
+                .work__descr
+                    h2.title
+                        | Work anywhere, with any device
+                    .text
+                        | These companies release their own versions of the operating systems with minor changes, and yet always with the same bottom line.
+                    a.work__button(href='#')
+                        img(src='img/work/apple.svg' alt='apple')
+                        .button-text
+                            p.get Download on the
+                            p.shop App Store
+                    a.work__button.work__button-white(href='#')
+                        img(src='img/work/Store.svg' alt='google')
+                        .button-text
+                            p.get Get it on
+                            p.shop Google Play
+        
+        section.reviews
+            .reviews-circle
+            .container
+                .reviews__descr
+                    h2.title
+                        | 10,000+ people love us
+                    .text
+                        | These companies release their own versions of the operating systems with minor changes, and yet always.
+                .reviews__grid
+                    .reviews__grid-card
+                        .card-header
+                            img.photo(src='img/reviews/aaron.png' alt='photo')
+                            .name Aaron Almaraz
+                                p.job CEO & Founder at Gearat
+                            img.icon(src='img/reviews/twitter.svg' alt='twitter')
+                        .card-text
+                            | Time is the most precious thing you have when bootstrapping. You can't take time to ponder on design…
+                    .reviews__grid-card
+                        .card-header
+                            img.photo(src='img/reviews/phet.png' alt='photo')
+                            .name Phet Putrie
+                                p.job Freelancer
+                            img.icon(src='img/reviews/twitter.svg' alt='twitter')
+                        .card-text
+                            | Time is the most precious thing you have when bootstrapping. You can't take time to ponder on design…
+                    .reviews__grid-card
+                        .card-header
+                            img.photo(src='img/reviews/lara.png' alt='photo')
+                            .name Lara Madrigal
+                                p.job Marketing Specialist
+                            img.icon(src='img/reviews/twitter.svg' alt='twitter')
+                        .card-text
+                            | Time is the most precious thing you have when bootstrapping. You can't take time to ponder on design…
+                    .reviews__grid-card
+                        .card-header
+                            img.photo(src='img/reviews/marleah.png' alt='photo')
+                            .name Marleah Eagleston
+                                p.job Founder at Spicenet
+                            img.icon(src='img/reviews/twitter.svg' alt='twitter')
+                        .card-text
+                            | Time is the most precious thing you have when bootstrapping. You can't take time to ponder on design…
+                    .reviews__grid-card
+                        .card-header
+                            img.photo(src='img/reviews/prescott.png' alt='photo')
+                            .name Prescott MacCaffery
+                                p.job Writer
+                            img.icon(src='img/reviews/twitter.svg' alt='twitter')
+                        .card-text
+                            | Time is the most precious thing you have when bootstrapping. You can't take time to ponder on design…
+                    .reviews__grid-card
+                        .card-header
+                            img.photo(src='img/reviews/waiapi.png' alt='photo')
+                            .name Waiapi Karaka
+                                p.job Designer, Freelancer
+                            img.icon(src='img/reviews/twitter.svg' alt='twitter')
+                        .card-text
+                            | Time is the most precious thing you have when bootstrapping. You can't take time to ponder on design…
+        
+        section.plan
+            .container
+                .plan__header
+                    h2.title Choose the right plan for your finity
+                    .plan-switch
+                        a.switch-yearly(href='#') Yearly
+                        a.switch-yearly.switch-monthly(href='#') Monthly
+                .divider.divider-plan
+                .plan__descr
+                    .variant
+                        .variant__name Starter
+                        .variant__list
+                                ul
+                                    li 10 GB Storage
+                                    li 15 Accounts
+                                    li 1,000 Connections
+                        .variant__cost $228
+                                p $19 per month, billed yearly
+                        a.button.button-white(href='#') Start 14 Days Free Trial
+                    .divider.divider-plan
+                    .variant
+                        .variant__name Standard
+                        .variant__list
+                                ul
+                                    li 100 GB Storage
+                                    li 50 Accounts
+                                    li 5,000 Connections
+                        .variant__cost $468
+                                p $39 per month, billed yearly
+                        a.button.button-white(href='#') Start 14 Days Free Trial
+                    .divider.divider-plan
+                    .variant
+                        .variant__name Pro
+                        .variant__list
+                                ul
+                                    li Unlimited Storage
+                                    li Unlimited Accounts
+                                    li Unlimited Connections
+                        .variant__cost $708
+                                p $59 per month, billed yearly
+                        a.button(href='#') Start 14 Days Free Trial
+            .footer
+                .container
+                    .wrapper
+                        .footer__descr
+                            img(src='img/footer/logo-white.svg' alt='logo-white')
+                            .text
+                                | Your ulitmate email solution to grow business and engaging with future customers and clients.
+                            button.button.button-mini Ask Question
+                        .footer__menu
+                            ul.menu-first
+                                li
+                                    a.top(href="#") Community 
+                                li
+                                    a(href="#") For Talents
+                                li
+                                    a(href="#") For Companies
+                                li
+                                    a(href="#") Facebook Group
+                                li
+                                    a(href="#") FAQ
+                            ul.menu-second
+                                li
+                                    a.top(href="#") About us
+                                li
+                                    a(href="#") Meet the Team
+                                li
+                                    a(href="#") Our Story
+                                li
+                                    a(href="#") Career
+                            ul.menu-third
+                                li
+                                    a.top(href="#") Contacts
+                                li
+                                    a(href="#") Feel free to get in touch with us via phone or send us a message.
+                                li
+                                    a.colored(href="tel:+13013403946") +1-301-340-3946
+                                    br
+                                    a.colored(href="mailto:info@finity.com") info@finity.com
+                    .divider
+                    .cellar
+                        p © Finity 2019, All Rights Reserved
+                        .social
+                            a(href="#")
+                                img(src="img/footer/twitter.svg" alt="twitter")
+                            a(href="#")
+                                img(src="img/footer/fb.svg" alt="facebook")
+                            a(href="#")
+                                img(src="img/footer/google.svg" alt="google")
+                    .circle
+                    .rectangle
+        script.
+            let isScrolling = false;
+            window.addEventListener("scroll", throttleScroll, false);
+            function throttleScroll(e) {
+              if (isScrolling == false) {
+                    window.requestAnimationFrame(function() {
+                  scrolling(e);
+                  isScrolling = false;
+                    });
+                }
+                isScrolling = true;
+            }
+            document.addEventListener("DOMContentLoaded", scrolling, false);
+            const firstBox = document.querySelector("#firstBox");
+            const secondBox = document.querySelector("#secondBox");
+            const thirdBox = document.querySelector("#thirdBox");
+            function scrolling(e) {
+              if (isPartiallyVisible(firstBox)) {
+                    firstBox.classList.add("active");
+              }
+                if (isPartiallyVisible(secondBox)) {
+                    secondBox.classList.add("active");
+                }
+              if (isPartiallyVisible(thirdBox)) {
+                    thirdBox.classList.add("active");
+                }
+            }
+            function isPartiallyVisible(el) {
+                let elementBoundary = el.getBoundingClientRect();
+                let top = elementBoundary.top;
+                let bottom = elementBoundary.bottom;
+                let height = elementBoundary.height;
+                return ((top + height >= 0) && (height + window.innerHeight >= bottom));
+            }
+            const hamburger = document.querySelector('.hamburger'),
+                  menu = document.querySelector('.menu'),
+                  closeElement = document.querySelector('.menu__close');
+            hamburger.addEventListener('click', () => {
+                menu.classList.add('active');
+            });
+            closeElement.addEventListener('click', () => {
+                menu.classList.remove('active');
+            });
